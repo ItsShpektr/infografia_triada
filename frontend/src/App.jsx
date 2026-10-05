@@ -6,8 +6,27 @@ function App() {
     <div className="infografia-container">
       <header className="header">
         <h1>La Tríada de la Seguridad de la Información</h1>
-        <p>El pilar fundamental para la protección de activos digitales y gobierno TI.</p>
+        <p>El pilar fundamental para la protección de activos digitales.</p>
       </header>
+
+      {/* NUEVA SECCIÓN INTRODUCTORIA */}
+      <section className="intro-section">
+        <h2>Antes de empezar: ¿Qué es la Seguridad de la Información?</h2>
+        <div className="intro-content">
+          <p>
+            Imagina que la información de una empresa es como el dinero en un banco. No basta con esconderlo; 
+            necesitas reglas claras para saber <strong>quién</strong> puede entrar a la bóveda, asegurarte de que 
+            los billetes <strong>no sean falsos</strong>, y garantizar que los cajeros <strong>funcionen</strong> 
+            cuando los clientes necesitan su dinero.
+          </p>
+          <p>
+            En el mundo digital, los datos (tus contraseñas, fotos, documentos de trabajo) son nuestro activo más valioso. 
+            La <strong>Seguridad de la Información</strong> es el conjunto de reglas y medidas que usamos para proteger 
+            esos datos de hackers, accidentes o fallas técnicas. Para lograrlo, los expertos se basan en tres pilares 
+            fundamentales, conocidos como la <strong>Tríada CIA</strong>.
+          </p>
+        </div>
+      </section>
 
       <section className="triada-grid">
         <div className="card confidencialidad">
