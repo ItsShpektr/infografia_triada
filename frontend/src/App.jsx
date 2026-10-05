@@ -16,7 +16,7 @@ function App() {
           <p>
             Imagina que la información de una empresa es como el dinero en un banco. No basta con esconderlo; 
             necesitas reglas claras para saber <strong>quién</strong> puede entrar a la bóveda, asegurarte de que 
-            los billetes <strong>no sean falsos</strong>, y garantizar que los cajeros <strong>funcionen</strong> 
+            los billetes <strong>no sean falsos</strong>, y garantizar que los cajeros <strong>funcionen </strong> 
             cuando los clientes necesitan su dinero.
           </p>
           <p>
@@ -29,6 +29,29 @@ function App() {
       </section>
 
       <section className="triada-grid">
+        {/* SECCIÓN DE EJEMPLOS PRÁCTICOS */}
+      <section className="ejemplos-section">
+        <h2>¿Cómo se ve esto en tu día a día?</h2>
+        <div className="ejemplos-grid">
+          <div className="ejemplo-item">
+            <span className="app-tag whatsapp">WhatsApp</span>
+            <h3>Confidencialidad</h3>
+            <p>Tus mensajes están cifrados. Ni siquiera la empresa puede leer lo que envías, solo tú y el receptor.</p>
+          </div>
+          
+          <div className="ejemplo-item">
+            <span className="app-tag banco">App Bancaria</span>
+            <h3>Integridad</h3>
+            <p>Si transfieres $5.000, el banco asegura que no se cambie a $50.000 por un error en el camino.</p>
+          </div>
+
+          <div className="ejemplo-item">
+            <span className="app-tag netflix">Netflix / Spotify</span>
+            <h3>Disponibilidad</h3>
+            <p>Los servidores trabajan 24/7 para que puedas ver tu serie o escuchar música a cualquier hora sin interrupciones.</p>
+          </div>
+        </div>
+      </section>
         <div className="card confidencialidad">
           <div className="icon">🔒</div>
           <h2>Confidencialidad</h2>
